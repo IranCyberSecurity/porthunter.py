@@ -17,7 +17,7 @@ __Deface = "<center><H1>ICG 4 EVER</H1></center>"
 __sessSocket = socket.socket()
 print '  [*] Socket ---> Ok'
 try:
-    __sessSocket.bind(('',1))
+    __sessSocket.bind(('',1337))
 except socket.error:
     print '  [-] Socket Bind ---> No'
     sys.exit()
